@@ -50,8 +50,8 @@ pipeline {
                         to: 'sunnieho790323@gmail.com',
                         subject: "Testing Deployment Notification: ${env.PRODUCTION_ENVIRONMENT}",
                         body: "The application has been deployed to the production environment: ${env.PRODUCTION_ENVIRONMENT}",
-                        attachBuildLog: true,
-                        compressBuildLog: true
+                        attachLog: true,
+                        compressLog: true
                     )
                 }
             }
