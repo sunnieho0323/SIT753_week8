@@ -58,3 +58,5 @@ pipeline {
         }
     }
 }
+
+// this is a jenkinsfile for a pipeline that builds, tests, checks code quality, deploys to a testing environment, waits for approval, and then deploys to production with email notification.
