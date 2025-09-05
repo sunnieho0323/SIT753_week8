@@ -58,3 +58,5 @@ pipeline {
         }
     }
 }
+
+// This is a Jenkins pipeline script that automates the build, test, code quality check, and deployment of an application.
